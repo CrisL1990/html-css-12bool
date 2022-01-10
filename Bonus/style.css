@@ -1,14 +1,44 @@
+.container-2{
+    max-width: 80%;
+    margin: 0 auto;
+    
+}
+
 .box-content{
     margin-top: 100px;
     height: 800px;
     background-color: black;
 }
 
-.square{
-    height: 200px;
-    border: solid white 1px;
-}
+
 
 .top{
     margin-top: 100px;
+}
+
+.top, .center, .bottom{
+    height: 200px;
+}
+
+.square{
+    height: 100%;
+    display: flex;
+}
+
+.square-1, .square-2, .square-4, .square-5{
+    border-right: solid white 1px;
+    border-bottom: solid white 1px;
+}
+
+.square-3, .square-6{
+    border-bottom: solid white 1px;
+}
+.square-7, .square-8{
+    border-right: solid white 1px;
+}
+
+.ex, .round{
+    color: white;
+    line-height: 100%;
+    font-size: 150px;
 }

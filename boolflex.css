@@ -84,6 +84,8 @@
     max-width: calc((100% / 12) * 12);
 }
 /*Fine settings colonne*/
+
+/*Inizio settings offset left*/
 .col-offset-1{
     margin-left: calc((100% / 12) * 1);   
 }
@@ -127,4 +129,50 @@
 .col-offset-11{
     margin-left: calc((100% / 12) * 11);   
 }
-/*Inizio settings offset*/
+/*Fine settings offset left*/
+
+/*Inizio settings offset right*/
+.col-offset-1-r{
+    margin-right: calc((100% / 12) * 1);   
+}
+
+.col-offset-2-r{
+    margin-right: calc((100% / 12) * 2);   
+}
+
+.col-offset-3-r{
+    margin-right: calc((100% / 12) * 3);   
+}
+
+.col-offset-4-r{
+    margin-right: calc((100% / 12) * 4);   
+}
+
+.col-offset-5-r{
+    margin-right: calc((100% / 12) * 5);   
+}
+
+.col-offset-6-r{
+    margin-right: calc((100% / 12) * 6);   
+}
+
+.col-offset-7-r{
+    margin-right: calc((100% / 12) * 7);   
+}
+
+.col-offset-8-r{
+    margin-right: calc((100% / 12) * 8);   
+}
+
+.col-offset-9-r{
+    margin-right: calc((100% / 12) * 9);   
+}
+
+.col-offset-10-r{
+    margin-right: calc((100% / 12) * 10);   
+}
+
+.col-offset-11-r{
+    margin-right: calc((100% / 12) * 11);   
+}
+/*Fine settings offset right*/
