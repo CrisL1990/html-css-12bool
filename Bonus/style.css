@@ -1,0 +1,14 @@
+.box-content{
+    margin-top: 100px;
+    height: 800px;
+    background-color: black;
+}
+
+.square{
+    height: 200px;
+    border: solid white 1px;
+}
+
+.top{
+    margin-top: 100px;
+}
