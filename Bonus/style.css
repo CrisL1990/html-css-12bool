@@ -1,17 +1,74 @@
 .container-2{
     max-width: 80%;
     margin: 0 auto;
-    
 }
 
 .box-content{
     margin-top: 100px;
-    height: 800px;
     background-color: black;
+    padding: 100px 0;
 }
 
+.game-name{
+    height: 150px;
+}
 
+.letter{
+    background-color: white
+}
 
+.t, .r, .i, .s{
+    height: 100%;
+    padding: 0 10px;
+   
+}
+
+.t > .col-12, .r > .col-12{
+    height: 15%;
+    background-color: white
+}
+
+.t > .col-2{
+    height: 85%;
+    background-color: white
+}
+
+.r > .row{
+    height: 30%;
+}
+
+.r .row .line-r{
+    margin-right: 0;
+}
+
+.r .row .col-2{
+    height: 100%;
+    margin-left: 0;
+}
+
+#r-bottom{
+    height: 5%;
+}
+.i .dot{
+    height: 15%;
+    margin-bottom: 10%;
+}
+
+.i .line{
+    height: 75%;
+}
+
+.s > .col-12{
+    height: 15%;
+}
+
+.s > .col-2{
+    height: 30%;
+}
+
+.s .line{
+    height: 10%;
+}
 .top{
     margin-top: 100px;
 }
